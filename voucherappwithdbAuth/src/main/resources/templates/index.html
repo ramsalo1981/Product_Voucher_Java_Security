@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Voucher Home</title>
+</head>
+<body>
+<a href="/showCreateVoucher">Create Voucher</a><br/>
+<a href="/showGetVoucher">Get Voucher</a><br/>
+<a href="/logout">Logout</a><br/>
+
+<form name="logouForm" th:action="@{/logout}" method="post">
+  <input type="submit" value="Sign Out">
+</form>
+
+</body>
+</html>
